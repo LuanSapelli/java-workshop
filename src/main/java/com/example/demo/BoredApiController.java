@@ -10,7 +10,7 @@ public class BoredApiController {
     @GetMapping("/bored")
 	public BoredApiModel getBoredApiModel(RestTemplate restTemplate) {
 
-        Time time = new Time(00, 20, 30);
+        Time time = new Time();
 
         String url = "http://www.boredapi.com/api/activity?";
     List<String> types = time.acessTime();
