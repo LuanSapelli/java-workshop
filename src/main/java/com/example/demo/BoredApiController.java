@@ -13,7 +13,7 @@ public class BoredApiController {
         Time time = new Time();
 
         String url = "http://www.boredapi.com/api/activity?";
-    List<String> types = time.acessTime();
+    List<String> types = time.horaAcesso();
 
     for (String type : types) {
         url += type;

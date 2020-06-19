@@ -18,7 +18,7 @@ public class Time {
     }
 
 
-    public List<String> acessTime() {
+    public List<String> horaAcesso() {
         // 00:00 às 05:00
         if (horas < 18000) {
             return Arrays.asList("type=music", "&type=relaxation", "&type=recreational");
